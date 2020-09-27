@@ -11,7 +11,7 @@
 
   /* header */
   .header-logo {
-    font-size: 10px;
+    font-size: 20px;
     width: 30%;
   }
   
@@ -20,13 +20,19 @@
   }
   
   .header-list li {
-    font-size: 10px;
+    font-size: 14px;
     margin: 0 2px;
 
 /*   .menu-icon {
     display: block;
     float: right;
   } */
+    
+/*   -----contact----- */
+    
+    .modal {
+      width: 80%;
+    }
 
   .page-header {
     flex-direction: column;

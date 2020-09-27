@@ -50,7 +50,7 @@
     }
     
   .info p {
-    width: 80%;
+    font-size: 1rem;
     }
     
 /* ------blog------- */
@@ -106,10 +106,8 @@
     margin-left: 80px;
   }
   
-    footer {
-      width: 100%;
-      margin: 0;
-    }
+   
+    
     
     
   /* -------photo------ */

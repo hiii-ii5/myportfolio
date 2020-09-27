@@ -32,7 +32,11 @@
     
     .modal {
       margin: 0 auto;
-      width: 150px;
+      width: 80%;
+    }
+    
+    #contact-form input, textarea {
+      width: 80%;
     }
 
   .page-header {

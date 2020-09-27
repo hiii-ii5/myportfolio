@@ -11,16 +11,17 @@
 
   /* header */
   .header-logo {
+    font-size: 10px;
     width: 30%;
   }
   
   .header-list {
-    font-size: 0.5rem;
     width: 60%;
   }
   
   .header-list li {
-    margin: 0 20px;
+    font-size: 10px;
+    margin: 0 2px;
 
 /*   .menu-icon {
     display: block;

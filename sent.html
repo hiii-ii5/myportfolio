@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>Hirona Ito Portfolio</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <meta name="description" content="伊藤のポートフォリオサイトです">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/50622e32b2.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <style type="text/css">.message-modal-wrapper{display: block;}</style>
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <header class="page-header">
+      
+        <h1 class="header-logo">My Portfolio</h1>
+        <span class="fa fa-bars menu-icon"></span>
+          <ul class="header-list">
+            <li><a href="#header" class="fas fa-home">Home</a></li>
+            <li><a href="blog.html" class="far fa-comment-dots">Blog</a></li>
+            <li><a href="photo.html" class="fas fa-camera">Photo</a></li>
+            <li><a href="#contact" class="message-show"><i class="fas fa-paper-plane">Contact</i></a></li>
+          </ul>
+     </header>
+
+     <!-- コンタクトモダール-->
+    <div class="contact-modal-wrapper">
+    </div>
+    <div id="contact-modal" class="message-modal-wrapper">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fas fa-times"></i>
+        </div>
+        
+        <div id="contact-form">
+          <h2><i class="fas fa-paper-plane"></i>Thank you</h2>
+          <form action="index.html" method="post">
+            <!-- <div class="form-item">名前</div>
+            <td><?php echo $_POST['name'];?></td>
+
+            <div class="form-item">メールアドレス</div>
+            <td><?php echo $_POST['email'];?></td>
+
+            <div class="form-item">内容</div>
+            <td><?php echo $_POST['body'];?></td>
+
+            <input type="submit" id="submit-btn" value="送信"> -->
+          </form> 
+        </div>
+      </div> 
+    </div>
+
+    <div class="top-wrapper" id="header">
+      <div class="container">
+      </div>
+    </div>
+    
+  <footer> 
+      <div class="footer-logo">My portfolio</div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

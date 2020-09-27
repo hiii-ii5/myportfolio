@@ -31,7 +31,8 @@
 /*   -----contact----- */
     
     .modal {
-      width: 200px;
+      margin: 0 auto;
+      width: 150px;
     }
 
   .page-header {
@@ -50,7 +51,7 @@
   
     
   aside {
-    width: 100%;
+    display: none;
   }
     
   .blog-contents {

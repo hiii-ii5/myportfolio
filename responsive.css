@@ -47,7 +47,10 @@
   article {
     width: 100%;
     }
-    
+  
+   article img {
+     width: 100%;
+    }
     
   aside {
     width: 100%;
@@ -55,7 +58,7 @@
     
   .blog-contents {
     flex-direction: column;
-    margin-bottom: 200px;
+    margin-bottom: 0;
   }
 
     

@@ -14,9 +14,10 @@
     display: none;
   }
 
-  .menu-icon {
+/*   .menu-icon {
     display: block;
-  }
+    float: right;
+  } */
 
   .page-header {
     flex-direction: column;

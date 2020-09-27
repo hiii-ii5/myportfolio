@@ -29,9 +29,9 @@ body {
   line-height: 1.7;
 }
 
-/* html, body {
-  height: 100%;
-} */
+html, body {
+  height: auto;
+}
 
 a {
   text-decoration: none;

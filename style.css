@@ -335,8 +335,6 @@ aside {
 }
 
 article img {
-  width: 60%;
-  height:30%;
   object-fit: cover;
   margin-bottom: 20px;
 }

@@ -60,11 +60,12 @@ header {
   line-height: 70px;
   margin: 0;
 }
+
 .menu-icon {
   color: white;
-  float: right;
   font-size: 25px;
   padding: 21px 0;
+  display: flex;
   display: none;
 }
 .header-list li {

@@ -44,14 +44,20 @@
   }
 /* ------blog------- */
 
-  .blog-contents {
-    flex-direction: column;
-  }
-
-  article, 
+  article {
+    width: 100%;
+    }
+    
+    
   aside {
     width: 100%;
   }
+    
+  .blog-contents {
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+
     
   #blog .page-title {
     margin-top: 30px;
@@ -87,7 +93,9 @@
   .post-title, .post-cat {
     margin-left: 80px;
   }
-
+  
+    
+    
   /* -------photo------ */
 
   .big-box {

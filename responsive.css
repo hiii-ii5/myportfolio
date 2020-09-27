@@ -11,12 +11,12 @@
 
   /* header */
   .header-logo {
-    font-size: 18px;
-    width: 30%;
+    font-size: 16px;
+    width: 33%;
   }
   
   .header-list {
-    width: 70%;
+    width: 67%;
   }
   
   .header-list li {
@@ -53,9 +53,7 @@
     font-size: 1rem;
     }
     
-  body, #wrapper {
-   height:100px;
-    }
+  
     
  
    

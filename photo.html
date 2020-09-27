@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>HironaIto Photo</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta name="description" content="伊藤のポートフォリオサイトです">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/50622e32b2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+
+    <header class="page-header">
+      
+        <h1 class="header-logo">My Portfolio</h1>
+        
+          <ul class="header-list">
+            <li><a href="index.html" class="fas fa-home">Home</a></li>
+            <li><a href="blog.html" class="far fa-comment-dots">Blog</a></li>
+            <li><a href="photo.html" class="fas fa-camera">Photo</a></li>
+            <li><a href="#contact" class="message-show"></a><i class="fas fa-paper-plane"></i>Contact</a></li>
+          </ul>
+     </header>
+
+       <!-- コンタクトモダール-->
+    <div class="contact-modal-wrapper">
+    </div>
+    <div id="contact-modal" class="message-modal-wrapper">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fas fa-times"></i>
+        </div>
+        <div id="contact-form">
+          <h2><i class="fas fa-paper-plane"></i>Contact</h2>
+          <form action="sent.html" method="post">
+            <input class="form-control" type="text" placeholder="お名前" name="name">
+            <input class="form-control" type="text" placeholder="メールアドレス" name="email">
+            <textarea class="form-control" type="text" name="body"></textarea>
+            <input type="text" name="honeypot" style="display: none;">
+            <input type="hidden" name="accessKey" value="640b8693-5c6b-4cec-a132-2caf125fbe0a">
+            <!-- <input type="hidden" name="subject" value="Contact us from -example.com"> -->
+            <input type="hidden" name="replyTo" value="@">
+            <!-- <input type="hidden" name="redirectTo" value=""> -->
+            <input type="submit" id="submit-btn" value="送信">
+          </form>
+        </div>
+      </div> 
+    </div>
+    
+     <div id="photo">
+       <h2 class="heading"><i class="fas fa-camera"></i>Photo</h2>
+       <div class="wrapper grid">
+         <div class="item big-box">
+           <img src="img/top.jpg" alt="USA">
+           <p class="item-text">Portland/Usa</p>
+         </div>
+         <div class="item">
+           <img src="img/port1.JPG" alt="USA">
+           <p class="item-text">Ace Hotel/Portland</p>
+         </div>
+         <div class="item">
+           <img src="img/port2.JPG" alt="USA">
+           <p class="item-text">Mississippi Ave./Portland</p>
+         </div>
+         <div class="item">
+           <img src="img/port3.JPG" alt="USA">
+           <p class="item-text">Voodoo donuts/Portland</p>
+         </div>
+         <div class="item">
+           <img src="img/nyc1.JPG" alt="USA">
+           <p class="item-text">NYC/Usa</p>
+         </div>
+         <div class="item">
+           <img src="img/canada1.JPG" alt="CA">
+           <p class="item-text">Lake Louise/Canada</p>
+         </div>
+         <div class="item">
+           <img src="img/canada2.JPG" alt="CA">
+           <p class="item-text">Kitsilano Beach/Canada</p>
+         </div>
+         <div class="item">
+          <img src="img/hawaii3.JPG" alt="HAWAII">
+          <p class="item-text">SANDBAR/Hawaii</p>
+          </div>
+          <div class="item">
+          <img src="img/hawaii4.jpg" alt="HAWAII">
+          <p class="item-text">LANIKAI PILLBOX/Hawaii</p>
+          </div>
+         <div class="item">
+           <img src="img/hawaii2.jpg" alt="HAWAII">
+           <p class="item-text">KANEOHE BAY/Hawaii</p>
+         </div>
+         <div class="item">
+           <img src="img/mexico1.JPG" alt="MEXICO">
+           <p class="item-text">Chichen-Itza/Mexico</p>
+         </div>
+         <div class="item">
+           <img src="img/mexico2.JPG" alt="MEXICO">
+           <p class="item-text">IK KIL/Mexico</p>
+         </div>
+       </div>
+     </div>
+    
+  
+  <footer> 
+      <div class="footer-logo">My portfolio</div>
+      <div class="footer-list">
+        <p><i id="contact" class="fas fa-paper-plane"></i>Contact</p>
+        </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

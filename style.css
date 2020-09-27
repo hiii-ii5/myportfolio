@@ -16,7 +16,9 @@ html {
   height: 100%;
   max-width: 1400px;
   margin: 0 auto;
-/*   position: relative; */
+  position: relative;
+  padding-bottom: 80px;
+  box-sizing: border-box;
 }
 
 body {
@@ -265,10 +267,8 @@ footer {
   color: #fff;
   height: 80px;
   font-weight: bold;
-  /* display: flex;
-  justify-content: space-between; */
-  /* position: absolute;
-  bottom: 0; */
+  position: absolute;
+  bottom: 0;
 }
 .footer-logo {
   font-size: 18px;

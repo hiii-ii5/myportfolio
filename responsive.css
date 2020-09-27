@@ -10,8 +10,13 @@
   
 
   /* header */
+  .header-logo {
+    width: 30%;
+  }
+  
   .header-list {
-    font-size: 2rem;
+    font-size: 0.5rem;
+    width: 60%;
   }
   
   .header-list li {

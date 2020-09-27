@@ -113,7 +113,7 @@ header {
   background-color: #fff;
   padding: 20px 0 40px;
   border-radius: 10px;
-  width: 320px;
+  width: 450px;
   height: auto;
   text-align: center;
 }
@@ -137,7 +137,7 @@ header {
 }
 
 #contact-form input, textarea {
-  width: 70%;
+  width: 320px;
   margin-bottom: 20px;
   font-size: 12px;
   padding: 12px 12px;

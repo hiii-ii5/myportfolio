@@ -61,13 +61,13 @@ header {
   margin: 0;
 }
 
-.menu-icon {
+/* .menu-icon {
   color: white;
   font-size: 25px;
   padding: 21px 0;
   display: flex;
   display: none;
-}
+} */
 .header-list li {
   margin-left: 24px;
   display: inline-block;

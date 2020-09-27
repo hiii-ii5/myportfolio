@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>HironaIto Portfolio</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta name="description" content="伊藤のポートフォリオサイトです">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/50622e32b2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+
+    <header class="page-header">
+      
+        <h1 class="header-logo">My Portfolio</h1>
+        <span class="fa fa-bars menu-icon"></span>
+          <ul class="header-list">
+            <li><a href="#header" class="fas fa-home">Home</a></li>
+            <li><a href="blog.html" class="far fa-comment-dots">Blog</a></li>
+            <li><a href="photo.html" class="fas fa-camera">Photo</a></li>
+            <li><a href="#contact" class="message-show"><i class="fas fa-paper-plane">Contact</i></a></li>
+          </ul>
+     </header>
+
+     <!-- コンタクトモダール-->
+    <div class="contact-modal-wrapper">
+    </div>
+    <div id="contact-modal" class="message-modal-wrapper">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fas fa-times"></i>
+        </div>
+        <div id="contact-form">
+          <h2><i class="fas fa-paper-plane"></i>Contact</h2>
+          <form action="sent.html" method="post">
+            <input class="form-control" type="text" placeholder="お名前" name="name">
+            <input class="form-control" type="text" placeholder="メールアドレス" name="email">
+            <textarea class="form-control" type="text" name="body"></textarea>
+            <input type="text" name="honeypot" style="display: none;">
+            <input type="hidden" name="accessKey" value="640b8693-5c6b-4cec-a132-2caf125fbe0a">
+            <!-- <input type="hidden" name="subject" value="Contact us from -example.com"> -->
+            <input type="hidden" name="replyTo" value="@">
+            <!-- <input type="hidden" name="redirectTo" value=""> -->
+            <input type="submit" id="submit-btn" value="送信">
+          </form>
+        </div>
+      </div> 
+    </div>
+    <div class="top-wrapper" id="header">
+      <div class="container">
+      </div>
+    </div>
+    <div id="profile">
+      <div class="heading">
+        <h2><i class="fas fa-user"></i>Profile</h2>
+      </div>
+      <div class="prf-container">
+        <div class="icon">
+          <img src="img/profile.jpg" width="150" height="150" alt=profile画像></i>
+        </div>
+        <div class="info">
+              <h1>Hirona Ito<br>programmer</h1>
+              <p>はじめまして、伊藤紘奈と申します。<br>
+              独学でプログラミングを学びました。</p>  
+              <ul>
+                <li>
+                  <a href="blog.html" target="_blank">
+                    <i class="far fa-comment-dots" alt="ブログサイトへのリンク画像"></i>
+                  </a>
+                </li>
+              <li><a href="photo.html" target="_blank">
+                    <i class="fas fa-camera" alt="写真サイトへのリンク画像"></i> 
+                  </a>
+              </li>
+              </ul>
+          </div>
+      </div>
+    </div>
+  
+  <div id="skill">
+    <div class="container">
+      <div class="heading">
+        <h2><i class="fas fa-pen-fancy"></i>Skill</h2>
+      </div>
+      <p class="text-contents">HTML & CSS,Java script,JQuery,<br>SQL,Ruby,PHP...</p>
+    </div>
+  </div>
+  
+  <footer> 
+      <div class="footer-logo">My portfolio</div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

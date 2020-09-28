@@ -38,15 +38,11 @@
         </div>
         <div id="contact-form">
           <h2><i class="fas fa-paper-plane"></i>Contact</h2>
-          <form action="sent.html" method="post">
+          <form action="sent.html" method="post" data-netlify="true">
             <input class="form-control" type="text" placeholder="お名前" name="name">
             <input class="form-control" type="text" placeholder="メールアドレス" name="email">
             <textarea class="form-control" type="text" name="body"></textarea>
-            <input type="text" name="honeypot" style="display: none;">
-            <input type="hidden" name="accessKey" value="640b8693-5c6b-4cec-a132-2caf125fbe0a">
-            <!-- <input type="hidden" name="subject" value="Contact us from -example.com"> -->
-            <input type="hidden" name="replyTo" value="@">
-            <!-- <input type="hidden" name="redirectTo" value=""> -->
+            
             <input type="submit" id="submit-btn" value="送信">
           </form>
         </div>

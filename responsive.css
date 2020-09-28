@@ -11,7 +11,8 @@
 
   /* header */
   .header-logo {
-    font-size: 16px;
+    font-size: 17px;
+    margin-left: 3px;
     width: 30%;
   }
   

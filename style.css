@@ -56,20 +56,14 @@ header {
 
 .header-logo {
   width: 200px;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 70px;
   margin: 0;
 }
 
-/* .menu-icon {
-  color: white;
-  font-size: 25px;
-  padding: 21px 0;
-  display: flex;
-  display: none;
-} */
+
 .header-list li {
-  margin-left: 0.7rem;
+  margin-left: 1rem;
   display: inline-block;
 }
 

@@ -57,6 +57,7 @@
    .blog-contents {
     display: block;
 /*     flex-direction: column; */
+    max-width: 100%;
     margin-bottom: 0;
   }
     

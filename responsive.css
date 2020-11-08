@@ -55,7 +55,7 @@
 /* ------blog------- */
 
    .blog-contents {
-/*     display: flex; */
+    display: block;
     flex-direction: column;
     margin-bottom: 0;
   }

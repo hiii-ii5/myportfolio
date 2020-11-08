@@ -54,20 +54,18 @@
     
 /* ------blog------- */
 
-  article {
-    width: 100%;
-    }
-  
-    
-  aside {
-    width: 100%;
-  }
-    
-  .blog-contents {
-    display: flex;
+   .blog-contents {
+/*     display: flex; */
     flex-direction: column;
     margin-bottom: 0;
   }
+    
+   article,
+    aside {
+    width: 100%;
+  }
+    
+
 
     
   #blog .page-title {
